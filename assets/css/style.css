@@ -15,16 +15,19 @@ body {
     color: #ffffff;
 }
 
+/* This is affecting the logo in the upper left corner.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This is affecting the logo in the upper left corner but only the "seo" portion to give it some contrast and style.*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*These three CSS rules are affecting the hyperlinks located in the upper right corner of the webpage.*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +35,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This is changing text color and style of the three hyperlinks at the top of the page in the header <nav> portion.*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +53,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*Sets a figure using an image as the background placed above the main content of the webpage.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +62,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*The following three rule sets are affecting the images in the section element, specifically the ones include in the articles and the rule is applied by using the class attributes.*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +73,38 @@ p {
     margin-left: 25px;
 }
 
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*The next three affect the text in the <section> element.*/
+.search-engine-optimization h2,
+.social-media-marketing h2,
+.online-reputation-management h2  {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.search-engine-optimization,
+.social-media-marketing,
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*The following four rule styes are being applied to the <aside> element and the content within which is located on the right side of the page.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +116,29 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-lead,
+.benefit-cost,
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-cost h3,
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-cost img,
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*This is the bottom portion of the page.*/
 .footer {
     padding: 30px;
     clear: both;
