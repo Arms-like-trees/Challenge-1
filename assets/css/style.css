@@ -15,18 +15,18 @@ body {
     color: #ffffff;
 }
 
-/* This is affecting the logo in the upper left corner.*/
+/* This is affecting the logo in the upper left corner. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* This is affecting the logo in the upper left corner but only the "seo" portion to give it some contrast and style.*/
+/* This is affecting the logo in the upper left corner but only the "seo" portion to give it some contrast and style. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/*These three CSS rules are affecting the hyperlinks located in the upper right corner of the webpage.*/
+/* These three CSS rules are affecting the hyperlinks located in the upper right corner of the webpage. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,7 +44,7 @@ body {
     margin-left: 25px;
 }
 
-/* This is changing text color and style of the three hyperlinks at the top of the page in the header <nav> portion.*/
+/* This is changing text color and style of the three hyperlinks at the top of the page in the header <nav> portion. */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -53,7 +53,7 @@ a {
 p {
     font-size: 16px;
 }
-/*Sets a figure using an image as the background placed above the main content of the webpage.*/
+/* Sets a figure using an image as the background placed above the main content of the webpage. */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,7 +62,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*The following three rule sets are affecting the images in the section element, specifically the ones include in the articles and the rule is applied by using the class attributes.*/
+/* The following three rule sets are affecting the images in the section element, specifically the ones include in the articles and the rule is applied by using the class attributes. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,7 +79,7 @@ p {
     max-height: 200px;
 }
 
-/*The next three affect the text in the <section> element.*/
+/* The next three affect the text in the <section> element. */
 .search-engine-optimization h2,
 .social-media-marketing h2,
 .online-reputation-management h2  {
@@ -104,7 +104,7 @@ p {
     color: #ffffff;
 }
 
-/*The following four rule styes are being applied to the <aside> element and the content within which is located on the right side of the page.*/
+/* The following four rule styes are being applied to the <aside> element and the content within which is located on the right side of the page. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -138,7 +138,7 @@ p {
     max-width: 150px;
 }
 
-/*This is the bottom portion of the page.*/
+/* This is the bottom portion of the page. */
 .footer {
     padding: 30px;
     clear: both;
